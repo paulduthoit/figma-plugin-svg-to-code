@@ -1,0 +1,26 @@
+{
+  "name": "svg-to-code",
+  "version": "1.0.0",
+  "description": "A Figma Plugin that let you export vectors to custom code (like JSX).",
+  "main": "dist/code.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@types/lodash": "^4.14.191",
+    "@types/text-encoding": "^0.0.36",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3",
+    "lodash": "^4.17.21",
+    "text-encoding": "^0.7.0"
+  }
+}

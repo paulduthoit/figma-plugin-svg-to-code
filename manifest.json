@@ -1,0 +1,10 @@
+{
+  "name": "SVG to Code",
+  "id": "1221063154009057167",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "ui": "ui.html"
+}
